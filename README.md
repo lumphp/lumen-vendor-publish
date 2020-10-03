@@ -1,5 +1,7 @@
 # `vendor:publish` for Lumen framework
 
+fork from [laravelista/lumen-vendor-publish](https://github.com/laravelista/lumen-vendor-publish)
+
 This package contains a single command borrowed from the Laravel framework that enables you to use `php artisan vendor:publish` in your Lumen application.
 
 [![Become a Patron](https://img.shields.io/badge/Become%20a-Patron-f96854.svg?style=for-the-badge)](https://www.patreon.com/laravelista)

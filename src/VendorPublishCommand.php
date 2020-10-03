@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravelista\LumenVendorPublish;
+namespace Lum\VendorPublish;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
@@ -10,6 +10,11 @@ use League\Flysystem\Adapter\Local as LocalAdapter;
 use League\Flysystem\Filesystem as Flysystem;
 use League\Flysystem\MountManager;
 
+/**
+ * Class VendorPublishCommand
+ *
+ * @package Lum\VendorPublish
+ */
 class VendorPublishCommand extends Command
 {
     /**
